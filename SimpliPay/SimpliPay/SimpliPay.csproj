@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E680148-DF2D-43BB-9436-98614D0CB10F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SimpliPay</RootNamespace>
+    <AssemblyName>SimpliPay</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddPayDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPayDialog.Designer.cs">
+      <DependentUpon>AddPayDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseEmployees.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChooseEmployees.Designer.cs">
+      <DependentUpon>ChooseEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseEmpObject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChooseEmpObject.Designer.cs">
+      <DependentUpon>ChooseEmpObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreateProfile.Designer.cs">
+      <DependentUpon>CreateProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmployeeList.Designer.cs">
+      <DependentUpon>EmployeeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeListObject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmployeeListObject.Designer.cs">
+      <DependentUpon>EmployeeListObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinalizeObj.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FinalizeObj.Designer.cs">
+      <DependentUpon>FinalizeObj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinalizePayRoll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FinalizePayRoll.Designer.cs">
+      <DependentUpon>FinalizePayRoll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertFilePrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertFilePrompt.Designer.cs">
+      <DependentUpon>InsertFilePrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfilePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProfilePage.Designer.cs">
+      <DependentUpon>ProfilePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StartPayRoll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StartPayRoll.Designer.cs">
+      <DependentUpon>StartPayRoll.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddPayDialog.resx">
+      <DependentUpon>AddPayDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseEmployees.resx">
+      <DependentUpon>ChooseEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseEmpObject.resx">
+      <DependentUpon>ChooseEmpObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateProfile.resx">
+      <DependentUpon>CreateProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeList.resx">
+      <DependentUpon>EmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeListObject.resx">
+      <DependentUpon>EmployeeListObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinalizeObj.resx">
+      <DependentUpon>FinalizeObj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinalizePayRoll.resx">
+      <DependentUpon>FinalizePayRoll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertFilePrompt.resx">
+      <DependentUpon>InsertFilePrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfilePage.resx">
+      <DependentUpon>ProfilePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartPayRoll.resx">
+      <DependentUpon>StartPayRoll.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\ProfilePage.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deduction Tables\Alberta\alberta12.xlsx" />
+    <None Include="Resources\Deduction Tables\Alberta\alberta24.xlsx" />
+    <None Include="Resources\Deduction Tables\Alberta\alberta26.xlsx" />
+    <None Include="Resources\Deduction Tables\Alberta\Alberta52.xlsx" />
+    <None Include="Resources\Deduction Tables\BC\bc12.xlsx" />
+    <None Include="Resources\Deduction Tables\BC\bc24.xlsx" />
+    <None Include="Resources\Deduction Tables\BC\bc26.xlsx" />
+    <None Include="Resources\Deduction Tables\BC\bc52.xlsx" />
+    <None Include="Resources\Deduction Tables\CPP AND EI\cpp12.xlsx" />
+    <None Include="Resources\Deduction Tables\CPP AND EI\cpp24.xlsx" />
+    <None Include="Resources\Deduction Tables\CPP AND EI\cpp26.xlsx" />
+    <None Include="Resources\Deduction Tables\CPP AND EI\cpp52.xlsx" />
+    <None Include="Resources\Deduction Tables\CPP AND EI\EI.xlsx" />
+    <None Include="Resources\Deduction Tables\CPP AND EI\qppEI.xlsx" />
+    <None Include="Resources\Deduction Tables\CPP AND EI\quebecqpp12.xlsx" />
+    <None Include="Resources\Deduction Tables\CPP AND EI\quebecqpp24.xlsx" />
+    <None Include="Resources\Deduction Tables\CPP AND EI\quebecqpp26.xlsx" />
+    <None Include="Resources\Deduction Tables\CPP AND EI\quebecqpp52.xlsx" />
+    <None Include="Resources\Deduction Tables\Manitoba\manitoba12.xlsx" />
+    <None Include="Resources\Deduction Tables\Manitoba\manitoba24.xlsx" />
+    <None Include="Resources\Deduction Tables\Manitoba\manitoba26.xlsx" />
+    <None Include="Resources\Deduction Tables\Manitoba\manitoba52.xlsx" />
+    <None Include="Resources\Deduction Tables\NB\nb12.xlsx" />
+    <None Include="Resources\Deduction Tables\NB\nb24.xlsx" />
+    <None Include="Resources\Deduction Tables\NB\nb26.xlsx" />
+    <None Include="Resources\Deduction Tables\NB\nb52.xlsx" />
+    <None Include="Resources\Deduction Tables\NFLD\nfld12.xlsx" />
+    <None Include="Resources\Deduction Tables\NFLD\nfld24.xlsx" />
+    <None Include="Resources\Deduction Tables\NFLD\nfld26.xlsx" />
+    <None Include="Resources\Deduction Tables\NFLD\nfld52.xlsx" />
+    <None Include="Resources\Deduction Tables\NS\ns12.xlsx" />
+    <None Include="Resources\Deduction Tables\NS\ns24.xlsx" />
+    <None Include="Resources\Deduction Tables\NS\ns26.xlsx" />
+    <None Include="Resources\Deduction Tables\NS\ns52.xlsx" />
+    <None Include="Resources\Deduction Tables\Nunavut\nunavut12.xlsx" />
+    <None Include="Resources\Deduction Tables\Nunavut\nunavut24.xlsx" />
+    <None Include="Resources\Deduction Tables\Nunavut\nunavut26.xlsx" />
+    <None Include="Resources\Deduction Tables\Nunavut\nunavut52.xlsx" />
+    <None Include="Resources\Deduction Tables\NWT\nwt12.xlsx" />
+    <None Include="Resources\Deduction Tables\NWT\nwt24.xlsx" />
+    <None Include="Resources\Deduction Tables\NWT\nwt26.xlsx" />
+    <None Include="Resources\Deduction Tables\NWT\nwt52.xlsx" />
+    <None Include="Resources\Deduction Tables\Ontario\ontario12.xlsx" />
+    <None Include="Resources\Deduction Tables\Ontario\ontario24.xlsx" />
+    <None Include="Resources\Deduction Tables\Ontario\ontario26.xlsx" />
+    <None Include="Resources\Deduction Tables\Ontario\ontario52.xlsx" />
+    <None Include="Resources\Deduction Tables\PEI\pei12.xlsx" />
+    <None Include="Resources\Deduction Tables\PEI\pei24.xlsx" />
+    <None Include="Resources\Deduction Tables\PEI\pei26.xlsx" />
+    <None Include="Resources\Deduction Tables\PEI\pei52.xlsx" />
+    <None Include="Resources\Deduction Tables\Quebec\quebec12.xlsx" />
+    <None Include="Resources\Deduction Tables\Quebec\quebec24.xlsx" />
+    <None Include="Resources\Deduction Tables\Quebec\quebec26.xlsx" />
+    <None Include="Resources\Deduction Tables\Quebec\quebec52.xlsx" />
+    <None Include="Resources\Deduction Tables\Sask\sask12.xlsx" />
+    <None Include="Resources\Deduction Tables\Sask\sask24.xlsx" />
+    <None Include="Resources\Deduction Tables\Sask\sask26.xlsx" />
+    <None Include="Resources\Deduction Tables\Sask\sask52.xlsx" />
+    <None Include="Resources\Deduction Tables\Yukon\yukon12.xlsx" />
+    <None Include="Resources\Deduction Tables\Yukon\yukon24.xlsx" />
+    <None Include="Resources\Deduction Tables\Yukon\yukon26.xlsx" />
+    <None Include="Resources\Deduction Tables\Yukon\yukon52.xlsx" />
+    <None Include="Resources\Deduction_Tables\cpp12.pdf" />
+    <None Include="Resources\Deduction_Tables\cpp24.pdf" />
+    <None Include="Resources\Deduction_Tables\cpp26.pdf" />
+    <None Include="Resources\Deduction_Tables\cpp52.pdf" />
+    <None Include="Resources\Deduction_Tables\EI.pdf" />
+    <None Include="Resources\Deduction_Tables\tax12.pdf" />
+    <None Include="Resources\Deduction_Tables\tax24.pdf" />
+    <None Include="Resources\Deduction_Tables\tax26.pdf" />
+    <None Include="Resources\Deduction_Tables\tax52.pdf" />
+    <None Include="Resources\Templates\database_template.xlsx" />
+    <None Include="Resources\Templates\paystub_template.xlsx" />
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

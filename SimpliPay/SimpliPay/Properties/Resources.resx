@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="database_template" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Templates\database_template.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paystub_template" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Templates\paystub_template.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="alberta12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Alberta\alberta12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="alberta24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Alberta\alberta24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="alberta26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Alberta\alberta26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="alberta52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Alberta\Alberta52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bc12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\BC\bc12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bc24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\BC\bc24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bc26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\BC\bc26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bc52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\BC\bc52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cpp12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\CPP AND EI\cpp12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cpp24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\CPP AND EI\cpp24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cpp26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\CPP AND EI\cpp26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cpp52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\CPP AND EI\cpp52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\CPP AND EI\EI.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="manitoba12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Manitoba\manitoba12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="manitoba24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Manitoba\manitoba24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="manitoba26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Manitoba\manitoba26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="manitoba52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Manitoba\manitoba52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nb12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NB\nb12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nb24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NB\nb24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nb26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NB\nb26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nb52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NB\nb52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nfld12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NFLD\nfld12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nfld24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NFLD\nfld24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nfld26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NFLD\nfld26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nfld52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NFLD\nfld52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ns12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NS\ns12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ns24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NS\ns24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ns26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NS\ns26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ns52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NS\ns52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nunavut12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Nunavut\nunavut12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nunavut24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Nunavut\nunavut24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nunavut26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Nunavut\nunavut26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nunavut52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Nunavut\nunavut52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nwt12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NWT\nwt12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nwt24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NWT\nwt24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nwt26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NWT\nwt26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nwt52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\NWT\nwt52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ontario12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Ontario\ontario12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ontario24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Ontario\ontario24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ontario26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Ontario\ontario26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ontario52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Ontario\ontario52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pei12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\PEI\pei12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pei24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\PEI\pei24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pei26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\PEI\pei26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pei52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\PEI\pei52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qppEI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\CPP AND EI\qppEI.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="quebec12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Quebec\quebec12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="quebec24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Quebec\quebec24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="quebec26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Quebec\quebec26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="quebec52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Quebec\quebec52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="quebecqpp12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\CPP AND EI\quebecqpp12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="quebecqpp24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\CPP AND EI\quebecqpp24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="quebecqpp26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\CPP AND EI\quebecqpp26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="quebecqpp52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\CPP AND EI\quebecqpp52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sask12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Sask\sask12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sask24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Sask\sask24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sask26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Sask\sask26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sask52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Sask\sask52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yukon12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Yukon\yukon12.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yukon24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Yukon\yukon24.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yukon26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Yukon\yukon26.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yukon52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deduction Tables\Yukon\yukon52.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
